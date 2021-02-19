@@ -38,7 +38,7 @@ public class UserServiceImp implements IUserService{
 			data.add(valor);
 		}
 
-		user.setData(data.toArray());
+		user.setData(data);
 
 		return user;
 	}

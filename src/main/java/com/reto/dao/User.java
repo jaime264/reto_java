@@ -3,15 +3,16 @@ package com.reto.dao;
 import java.util.List;
 
 public class User {
-	private Object[] data;
+	private List<String> data;
 
-	public Object[] getData() {
+	public List<String> getData() {
 		return data;
 	}
 
-	public void setData(Object[] objects) {
-		this.data = objects;
+	public void setData(List<String> data) {
+		this.data = data;
 	}
 
+	
 
 }
